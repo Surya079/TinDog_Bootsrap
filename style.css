@@ -1,0 +1,24 @@
+.gradient-background{
+    background: linear-gradient(300deg, rgb(209, 166, 173), rgb(217, 71, 71), rgb(66, 66, 209));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.title{
+    padding-bottom: 0px;
+}
+.profile-img{
+    width: 100px;
+    border-radius: 50%;
+}
